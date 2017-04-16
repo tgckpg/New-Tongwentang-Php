@@ -22,6 +22,8 @@
 ```
 
 ### 用法
+請先執行 `php codegen.php` 以生成對照表 ( `wtable.php` )。 
+
 ```Php
 <?php
 include "wconv.php";
