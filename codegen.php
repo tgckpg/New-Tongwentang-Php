@@ -30,9 +30,9 @@ function GenTable( $table, $arrName )
     } 
 }
 
-GenTable( __DIR__ . "/native/codegen/s2trad/phrase_s2t.txt", "zh2Hant_phase2" );
-GenTable( __DIR__ . "/native/codegen/s2trad/word_s2t.txt", "zh2Hant_phase1" );
-GenTable( __DIR__ . "/native/codegen/t2simp/phrase_t2s.txt", "zh2Hans_phase2" );
-GenTable( __DIR__ . "/native/codegen/t2simp/word_t2s.txt", "zh2Hans_phase1" );
+GenTable( __DIR__ . "/native/s2trad/phrases.txt", "zh2Hant_phase2" );
+GenTable( __DIR__ . "/native/s2trad/words.txt", "zh2Hant_phase1" );
+GenTable( __DIR__ . "/native/t2simp/phrases.txt", "zh2Hans_phase2" );
+GenTable( __DIR__ . "/native/t2simp/words.txt", "zh2Hans_phase1" );
 
 fclose( $wtable );
